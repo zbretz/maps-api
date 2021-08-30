@@ -1,4 +1,4 @@
-<!doctype html>
+<!-- <!doctype html>
 
 <html lang="en">
 <head>
@@ -10,17 +10,38 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <script src="js/scripts.js"></script>
 
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
   <div id="map"></div>
 
-  <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-  <script
-    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2iVGnhGjAc6dU4HGPrYQwgwAKuFeqwjI&callback=initMap&libraries=&v=weekly"
     async
   ></script>
+
 </body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div id="map-container">
+      <div id="map"></div>
+    </div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=&v=weekly&channel=2"
+      async
+    ></script>
+  </body>
 </html>
